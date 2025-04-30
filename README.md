@@ -28,7 +28,7 @@ of most of its original variance before reduction. Overall, the hyperparameter t
 showcased their ability to enhance the performance and accuracy of various models across
 different datasets and tasks.
 
-##Contribution*
+Contribution
 The work described in this thesis strives to improve the learning model’s ability to
 generalize to an unseen dataset, either the cross-validation or test dataset, besides the training
 dataset. Random search, hybrid random and grid search, and hybrid random and manual
