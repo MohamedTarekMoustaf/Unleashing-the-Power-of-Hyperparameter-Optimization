@@ -19,8 +19,6 @@ to prevent overfitting, improve generalization, and achieve low variance in the 
 performance. The evaluation of the tuned models was conducted using pool and test datasets,
 ensuring the models' ability to accurately classify unseen data from different distributions.
 
-6
-
 Overall, these hyperparameter tuning techniques aimed to optimize the performance and
 generalization capabilities of the machine learning and deep learning models, specifically in the
 context of visual classification tasks. Furthermore, the three tuning techniques successfully
@@ -34,18 +32,15 @@ dimensionality of the human faces dataset in a computer vision application, keep
 of most of its original variance before reduction. Overall, the hyperparameter tuning techniques
 showcased their ability to enhance the performance and accuracy of various models across
 different datasets and tasks.
-1.4. Contribution
+
+##Contribution*
 The work described in this thesis strives to improve the learning model’s ability to
 generalize to an unseen dataset, either the cross-validation or test dataset, besides the training
 dataset. Random search, hybrid random and grid search, and hybrid random and manual
 search tuning techniques were utilized to optimize the cost function and generalization of
-
 some machine and deep learning models such as PointNet CNN, regularized and non-
 regularized standard feedforward neural networks (FNNs), support vector machine (SVM),
-
 and principal component analysis (PCA).
-
-7
 
 To the best knowledge of the thesis author that merging random search with grid search or
 with manual search has not been reported for tuning the hyperparameters of PointNet CNN,
@@ -62,18 +57,13 @@ time at tuning the hyperparameters with inefficient values that would never
 optimize the learning model’s accuracy.
 • Tuning the hyperparameters of PointNet CNN through three stages is
 unprecedented. Particularly, coarse and fine random search or hybrid random and
-
 grid search, or hybrid random and manual search are conducted using a cross-
 validation dataset. In addition, a test dataset-based evaluation was performed to
-
 ensure PointNet’s capability to generalize to cross-validation and testing datasets.
 Accordingly, the learning model has a high potential to generalize to other unseen
 datasets, such as the application dataset.
 • Proposing model-independent tuning techniques that can be applied to all deep
 CNN networks and machine learning models.
-
-8
-
 • Obtaining high classification accuracy by applying the three tuning techniques on
 standard FNN and SVM, outperforming the state-of-the-art work that uses the
 same dataset (make_moons of Sklearn library).
@@ -82,19 +72,10 @@ the sake of dimensionality reduction of image datasets.
 • Obtaining high classification accuracy without the high memory usage and long
 computation time required by the other iterative hyperparameter tuning
 techniques like Bayesian, gradient descent, and population-based training
-
 techniques. The iterative method is effective when the CNN model has a high-
 dimensional hyperparameter space. This thesis work tunes only at most three
-
 hyperparameters.
 
-The rest of the thesis is structured as follows:
-Chapter 2 provides an overview of the most common hyperparameter tuning techniques and
-some machine and deep learning models. The methodology for implementing the proposed
-hyperparameter tuning techniques is described in detail in Chapter 3. Chapter 4 shows and
-discusses the results in detail. Eventually, Chapter 5 demonstrates this thesis’ main conclusions
-and suggests recommendations that should be followed in the future to present a more efficient
-contribution.
 ## PointNet: *Deep Learning on Point Sets for 3D Classification and Segmentation*
 Created by <a href="http://charlesrqi.com" target="_blank">Charles R. Qi</a>, <a href="http://ai.stanford.edu/~haosu/" target="_blank">Hao Su</a>, <a href="http://cs.stanford.edu/~kaichun/" target="_blank">Kaichun Mo</a>, <a href="http://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas J. Guibas</a> from Stanford University.
 
