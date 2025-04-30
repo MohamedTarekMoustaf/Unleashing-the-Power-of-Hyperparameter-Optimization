@@ -9,12 +9,10 @@ component analysis (PCA). The random search-based tuning involves performing coa
 fine-tuning stages to optimize the hyperparameters. The hybrid random and grid search combines
 the benefits of random search and grid search to find optimal hyperparameter values efficiently.
 The hybrid random and manual search utilizes the insights gained from random search as prior
-knowledge to guide the manual search process.
-These techniques aim to enhance the visual classification accuracy of convolutional deep
+knowledge to guide the manual search process. These techniques aim to enhance the visual classification accuracy of convolutional deep
 
 neural networks, specifically PointNet. The hyperparameters targeted for tuning are the mini-
 batch size of stochastic gradient descent (SGD), momentum, and learning rate. The objective is
-
 to prevent overfitting, improve generalization, and achieve low variance in the model's
 performance. The evaluation of the tuned models was conducted using pool and test datasets,
 ensuring the models' ability to accurately classify unseen data from different distributions.
